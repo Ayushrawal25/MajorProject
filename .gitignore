@@ -1,13 +1,62 @@
-# .gitignore
+# Python bytecode
 __pycache__/
 *.py[cod]
 *$py.class
-.env
-.venv
-env/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
 venv/
+env/
 ENV/
-.streamlit/
+.env
+
+# Jupyter Notebook
 .ipynb_checkpoints
+
+# Model files (if you decide to store them locally)
 *.h5
+*.pb
+*.pt
+*.pth
+*.onnx
+model_data/
+
+# Streamlit
+.streamlit/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+*.log
+
+# Downloaded data
+data/
+datasets/
+
+# Temporary files
+tmp/
+temp/
+
+# Cached model files
+.cache/
+.huggingface/
+
+# Environment variables
+.env
+.env.local
+
+# Virtual environment (specific to your project)
 skin_env/
